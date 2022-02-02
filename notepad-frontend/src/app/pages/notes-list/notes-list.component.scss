@@ -1,0 +1,13 @@
+.main-container{
+    display:flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .main-container{
+        max-width: 19rem;
+    }
+  }

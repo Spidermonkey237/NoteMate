@@ -1,0 +1,20 @@
+@import '../../main-styles.scss';
+
+
+.note-card-container{
+    background: white;
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 15px 2px rgba($color: #000000, $alpha: 0.7);
+
+    .note-card-content{
+        padding: 25px;
+
+        .note-card-title{
+            font-size: 22px;
+            font-weight: bold;
+            color: $purple;
+        }
+
+    }
+}
