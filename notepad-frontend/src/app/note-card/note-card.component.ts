@@ -1,5 +1,5 @@
 import { style } from '@angular/animations';
-import { Component, ElementRef, OnInit, Renderer2, ViewChild } from '@angular/core';
+import { Component, ElementRef, Input, OnInit, Renderer2, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-note-card',
@@ -9,6 +9,9 @@ import { Component, ElementRef, OnInit, Renderer2, ViewChild } from '@angular/co
 
 
 export class NoteCardComponent implements OnInit {
+
+  @Input() title: string;
+  @Input() body: string;
 
   @ViewChild('truncator', { static: true }) truncator: ElementRef<HTMLElement>;
   @ViewChild('bodyText', { static: true }) bodyText: ElementRef<HTMLElement>;
