@@ -9,6 +9,9 @@ import { NotesListComponent } from './pages/notes-list/notes-list.component';
 import { MainLayoutComponent } from './pages/main-layout/main-layout.component';
 import { NoteCardComponent } from './note-card/note-card.component';
 import { NoteDetailsComponent } from './pages/note-details/note-details.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -16,12 +19,14 @@ import { NoteDetailsComponent } from './pages/note-details/note-details.componen
     NotesListComponent,
     MainLayoutComponent,
     NoteCardComponent,
-    NoteDetailsComponent
+    NoteDetailsComponent,
   ],
   imports: [
+    MatButtonModule,
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
