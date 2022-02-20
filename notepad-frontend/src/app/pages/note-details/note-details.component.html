@@ -20,7 +20,7 @@
         
         <div class="field is-grouped is-pulled-right">
             <div class="control">
-                <button mat-raised-button color="primary" type="submit">Save</button>
+                <button mat-raised-button color="primary" type="submit" [disabled]="!noteForm.valid">Save</button>
             </div>
             <div class="control">
                 <button mat-raised-button type="button">Cancel</button>
