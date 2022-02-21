@@ -16,7 +16,9 @@
 .top-bar{
     width:100%;
     height: 68 px;
-    background: linear-gradient(to right, $pink , $blue);
+    //background: linear-gradient(to right, $pink , $blue);
+    background: linear-gradient(to right, #3f51b5 , $pink);
+    //background-color:#3f51b5 #697de0;
 
     box-shadow: 0px 0px 10px 0px rgba(black,0.15);
 

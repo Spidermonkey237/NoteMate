@@ -17,9 +17,9 @@
     </div>
 
     <div class="notes-list">
-        <app-note-card title="First Card" body="This is the body"></app-note-card>
-        <app-note-card title="Second Card" body="This is the body"></app-note-card>
-        <app-note-card title="Third Card" body="This is the body"></app-note-card>
+        <app-note-card *ngFor="let note of notes; index as i" link={{i}} [title]="note.title" [body]="note.body" (delete)="deleteNote(i)"></app-note-card>
     </div>
+
+    <button mat-raised-button class="add-button" color="primary" routerLink="new">+ New card</button>
 
 </div>

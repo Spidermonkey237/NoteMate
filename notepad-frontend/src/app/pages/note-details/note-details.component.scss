@@ -4,6 +4,12 @@
     margin-top: 50px;
 }
 
+@media screen and (max-width: 500px) {
+    .form-container {
+        max-width: 19rem;
+    }
+  }
+
 input, textarea {
 
     &.ng-invalid.ng-touched{

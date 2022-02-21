@@ -74,3 +74,10 @@
     }
 
 }
+
+@media screen and (max-width: 500px) {
+    .delete-button {
+      opacity:1;
+      transform:scale(1);
+    }
+  }

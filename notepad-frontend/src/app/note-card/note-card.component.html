@@ -2,7 +2,7 @@
     #container
     class="note-card-container"
 >
-
+<div [routerLink]="link">
     <div class="note-card-content">
         <h1 class="note-card-title">{{title}}</h1>
         <div #bodyText class="note-card-body">
@@ -14,7 +14,9 @@
         </div>
 
     </div>
+</div>
+    
 
-    <div class="delete-button"></div>
+    <div class="delete-button" (click)=deleteButton()></div>
 
 </div>
