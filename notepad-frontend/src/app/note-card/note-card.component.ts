@@ -27,7 +27,7 @@ export class NoteCardComponent implements OnInit {
 
   ngOnInit(): void {
     let sytle = window.getComputedStyle(this.bodyText.nativeElement, null);
-    //let viewableHeight = parseInt(style.getPropertyValue("height"), 10);
+    
   }
 
   ngAfterViewInit() {

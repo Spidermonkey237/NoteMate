@@ -31,7 +31,7 @@ export class WeatherCardComponent implements OnInit {
   setWeatherdata(data:any){
     this.weatherData=data;
     let img =this.weatherData.weather[0].icon;
-    this.imgUrl = "http://openweathermap.org/img/wn/" + img + "@2x.png";
+    //this.imgUrl = "http://openweathermap.org/img/wn/" + img + "@2x.png";
   }
 
 }
