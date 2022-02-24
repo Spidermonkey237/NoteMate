@@ -11,6 +11,7 @@ import { NoteCardComponent } from './note-card/note-card.component';
 import { NoteDetailsComponent } from './pages/note-details/note-details.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
+import { WeatherCardComponent } from './meteo/weather-card/weather-card.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import {MatButtonModule} from '@angular/material/button';
     MainLayoutComponent,
     NoteCardComponent,
     NoteDetailsComponent,
+    WeatherCardComponent,
   ],
   imports: [
     MatButtonModule,

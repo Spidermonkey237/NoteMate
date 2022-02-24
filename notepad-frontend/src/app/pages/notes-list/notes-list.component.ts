@@ -11,6 +11,7 @@ import { Note } from 'src/app/shared/note.module';
 export class NotesListComponent implements OnInit {
 
   notes: Note[] =new Array<Note>()
+ 
   constructor(private notesService: NotesService) { }
 
   ngOnInit(): void {
@@ -20,4 +21,5 @@ export class NotesListComponent implements OnInit {
   deleteNote(id: number){
     this.notesService.delete(id);
   }
+
 }

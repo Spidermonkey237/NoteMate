@@ -14,6 +14,7 @@ export class NoteDetailsComponent implements OnInit {
   note: Note;
   noteId: number;
   new: boolean;
+  blague: any;
 
   constructor(private notesService : NotesService, private router: Router, private route: ActivatedRoute) { }
 
@@ -29,6 +30,8 @@ export class NoteDetailsComponent implements OnInit {
       }
 
     })
+
+    this.getjoke();
 
     
   }
@@ -46,5 +49,11 @@ export class NoteDetailsComponent implements OnInit {
 
   cancel(){
     this.router.navigateByUrl('/');
+  }
+
+  getjoke(){
+    fetch('https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single&idRange=0-26')
+    .then(response=>response.json())
+    .then(data=>{this.blague = data;})
   }
 }

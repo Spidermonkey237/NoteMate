@@ -15,6 +15,7 @@ export class NoteCardComponent implements OnInit {
   @Input() body: string ="";
   @Input() link: string ="";
 
+
   @Output('delete') deleteEvent: EventEmitter<void> = new EventEmitter<void>();
 
   @ViewChild('truncator', { static: true }) truncator: ElementRef<HTMLElement>;

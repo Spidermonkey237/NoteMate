@@ -1,3 +1,5 @@
+@import "../../../main-styles.scss";
+
 .form-container{
     max-width: 500px;
     margin: auto;
@@ -20,4 +22,21 @@ input, textarea {
         }
     }
    
+}
+
+.joke-container{
+    background-color: #f3f5fa;
+    position:relative;
+    display: flex;
+    margin-top: 45%;
+    justify-content: center;
+    
+    padding: 5px;
+    border-radius: 5px;
+        .joke-title{
+            color:$purple;
+        }
+
+    
+    //color: $light;
 }

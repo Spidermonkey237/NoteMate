@@ -12,7 +12,7 @@
         <br>
 
         <div class="field">
-            <label class="label">Body</label>
+            <label class="label">notice</label>
             <div class="control">
                 <textarea class="textarea" name="body" [(ngModel)]="note.body"></textarea>
             </div>
@@ -27,7 +27,10 @@
             </div>
         </div>
 
-
     </form>
+    
+    <div class="joke-container"> 
+        <p class="jokes"> <span class="joke-title">Joke : </span>{{blague.joke}}🤣</p>
+    </div>
 
 </div>
