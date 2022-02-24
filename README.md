@@ -21,9 +21,9 @@ Accompany your daily life by helping you to remember what is important to you.
 ## screenshots
 
 <p align="justify">
-  <img src="notepad-frontend/src/assets/P1.jpg" height="600px" width="400px">
-  <img src="notepad-frontend/src/assets/P3.jpg" height="600px" width="400px">
-  <img src="notepad-frontend/src/assets/P5.jpg" height="600px" width="400px">
+  <img src="notepad-frontend/src/assets/P6.jpg" height="600px" width="400px">
+  <img src="notepad-frontend/src/assets/P7.jpg" height="600px" width="400px">
+  <img src="notepad-frontend/src/assets/P8.jpg" height="600px" width="400px">
 </p>
 
 ---------------------------------------------------------------------------------------------------------------------
